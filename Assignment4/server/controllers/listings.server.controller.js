@@ -105,7 +105,6 @@ exports.list = function(req, res) {
         }
       });
       res.status(200).send(sortedListings);
-      console.log(sortedListings);
     }
   });
 }
